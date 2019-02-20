@@ -1,0 +1,39 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+  background-color: #17181c;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  margin: 0.5em auto auto auto;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+button {
+  width: 50%;
+  margin-top: 1em;
+}
+
+.selected {
+  background-color: green;
+}
